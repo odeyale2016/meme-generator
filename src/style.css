@@ -1,0 +1,64 @@
+body{
+   margin: 0;
+   background-color: whitesmoke; 
+}
+header{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #6441a5;
+    }
+header > img{
+    height: 80%;
+    margin-left: 10%;
+}
+
+header > p{
+    font-family: VT323, monospace;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 60px;
+}
+.meme{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.meme > img{
+    width: 50%;
+}
+.meme>h2{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact,sans-serif;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow:
+            2px 2px 0 #000000,
+            -2px -2px 0 #000000,
+            -2px -2px 0 #000000,
+            -2px -2px 0 #000000,
+            0 2px 0 #000000,
+            2px 0 0 #000000,
+            0 -2px 0 #000000,
+             -2px 0 0 #000000,
+             2px 2px 5px #000000;
+
+
+}
+.meme > .top{
+    top: 0;
+}
+.meme > .bottom{
+    bottom: 0;
+}
+.meme-form > button{
+     background-color: #6441a5;
+}
